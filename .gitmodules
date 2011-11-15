@@ -10,3 +10,6 @@
 [submodule "bundle/NERD-Tree"]
 	path = bundle/NERD-Tree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git://github.com/tpope/vim-surround.git
