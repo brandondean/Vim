@@ -4,3 +4,6 @@
 [submodule "bundle/colors"]
 	path = bundle/colors
 	url = git://github.com/vim-scripts/Color-Sampler-Pack.git
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = git://github.com/wincent/Command-T.git
