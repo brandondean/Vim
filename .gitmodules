@@ -19,3 +19,6 @@
 [submodule "bundle/scss"]
 	path = bundle/scss
 	url = git://github.com/cakebaker/scss-syntax.vim.git
+[submodule "bundle/textile"]
+	path = bundle/textile
+	url = git://github.com/timcharper/textile.vim.git
