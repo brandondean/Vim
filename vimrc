@@ -4,6 +4,8 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 let g:CommandTMaxHeight = 10
 
+set nocompatible 
+set wildignore=*.class
 filetype plugin indent on " load filetype plugins/indent settings
 set backspace=indent,eol,start " make backspace a more flexible
 set clipboard+=unnamed " share OS X clipboard
@@ -32,11 +34,9 @@ set vb
 
 " Tab settings
 set expandtab
-set softtabstop=2
-set ts=2
 set tabstop=2
-set autoindent
-set list
+set shiftwidth=2
+set softtabstop=2
 
 set cursorline " highlight current line
 set incsearch " BUT do highlight as you type you 
@@ -65,20 +65,21 @@ set softtabstop=2 " when hitting tab or backspace, how many spaces
 
 
 
-" GUI Settings {
- if has("gui_running")
-     " Basics {
-     colorscheme solarized 
-         set guifont=Inconsolata:h11 " My favorite font
-         set guioptions=ce 
-         "              ||
-         "              |+-- use simple dialogs rather than pop-ups
-         "              +  use GUI tabs, not console style tabs
-     " }
- 
-     " }
- endif
-" }
+if has("gui_running")
+   colorscheme solarized 
+   set background=dark
+   set transparency=15
+   set guifont=Inconsolata:h11 " My favorite font
+   set guioptions=ce 
+   "              ||
+   "              |+-- use simple dialogs rather than pop-ups
+   "              +  use GUI tabs, not console style tabs
+else
+  let g:solarized_termcolors=256
+  colorscheme solarized 
+  syntax on
+  set background=dark
+endif
 
 " Keybinding {
   " switch to the right window
