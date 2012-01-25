@@ -76,7 +76,7 @@ if has("gui_running")
    "              +  use GUI tabs, not console style tabs
 else
   let g:solarized_termcolors=256
-  colorscheme solarized 
+  colorscheme zenburn 
   syntax on
   set background=dark
 endif
