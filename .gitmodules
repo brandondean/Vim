@@ -28,3 +28,6 @@
 [submodule "bundle/Zenburn"]
 	path = bundle/Zenburn
 	url = git://github.com/vim-scripts/Zenburn.git
+[submodule "bundle/groovy"]
+	path = bundle/groovy
+	url = git://github.com/vim-scripts/groovy.vim.git
