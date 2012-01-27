@@ -31,3 +31,6 @@
 [submodule "bundle/groovy"]
 	path = bundle/groovy
 	url = git://github.com/vim-scripts/groovy.vim.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = git://github.com/tpope/vim-markdown.git
