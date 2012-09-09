@@ -34,3 +34,24 @@
 [submodule "bundle/cobalt"]
 	path = bundle/cobalt
 	url = git://github.com/dterei/VimCobaltColourScheme.git
+[submodule "bundle/crtlp"]
+	path = bundle/crtlp
+	url = git://github.com/kien/ctrlp.vim.git
+[submodule "bundle/VOom"]
+	path = bundle/VOom
+	url = git://github.com/vim-scripts/VOoM.git
+[submodule "bundle/slime"]
+	path = bundle/slime
+	url = git://github.com/jpalardy/vim-slime.git
+[submodule "bundle/auto-close"]
+	path = bundle/auto-close
+	url = git://github.com/Townk/vim-autoclose.git
+[submodule "bundle/snipmate.vim"]
+	path = bundle/snipmate.vim
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "cobalt.vim"]
+	path = cobalt.vim
+	url = git://github.com/jarodl/cobalt.vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
