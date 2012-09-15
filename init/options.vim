@@ -14,6 +14,7 @@ set tabstop=2       " real humens only need two spaces
 set autoindent
 set smarttab
 set shiftwidth=2    " >>, << "
+set textwidth=79
 
 set number
 
