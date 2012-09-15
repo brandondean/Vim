@@ -35,7 +35,8 @@ set splitbelow
 set scrolloff=5
 set cursorline
 
-set statusline=%F%m%r%h%w[%L][%{&ff}][%04l,%04v] 
+set statusline=%F%m%r%h%w[%L][%{&ff}][%04l,%04v]
+set statusline+=%{fugitive#statusline()}
 set laststatus=2
 
 set incsearch
