@@ -1,4 +1,4 @@
-set guifont=Droid\ Sans\ Mono:h15
+set guifont=Droid\ Sans\ Mono:h12
 
 set visualbell
 set notimeout
@@ -19,7 +19,7 @@ set textwidth=79
 set number
 
 set wildmenu
-set wildignore=*.gif,*.png,*.jpg
+set wildignore=*.gif,*.png,*.jpg,*.pyc
 set wildmode=list:longest
 
 set list
@@ -46,6 +46,9 @@ set autoread
 set swapfile
 set directory=~/.vim-tmp
 set backupdir=~/.vim-tmp
+
+let g:alternateExtensions_m = "h"
+let g:alternateExtensions_h = "m"
 
 set autowriteall
 autocmd BufLeave,FocusLost * silent! wall

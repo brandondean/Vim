@@ -8,4 +8,6 @@ endfunction
 autocmd BufWritePre *.py,*.rb,*.yml,*.js,*.css,*.less,*.sass,*.scss,*.html,*.xml,*.erb,*.haml,*.feature call StripTrailingWhitespace()
 
 autocmd BufRead,BufNewFile *.json set filetype=javascript
+autocmd BufRead,BufNewFile *.jbuilder set filetype=javascript
+autocmd BufRead,BufNewFile *.podspec set filetype=ruby
 
