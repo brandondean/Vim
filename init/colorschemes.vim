@@ -1,3 +1,4 @@
 " This is manly 
-colorscheme Tomorrow-Night-bright
 set background=dark
+set t_Co=256
+colorscheme Tomorrow-Night
