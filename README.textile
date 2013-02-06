@@ -1,1 +1,19 @@
-My vim files. Lots of work is going to be done in the near future in this area.
+VIM configuration files from https://github.com/brandondean/Vim/
+
+The automatic installer.
+
+You can install this via the command line with either `curl` or `wget`.
+
+via `curl`
+
+curl -L https://github.com/brandondean/Vim/raw/master/Rakefile; rake install
+
+via `wget`
+
+wget --no-check-certificate https://github.com/brandondean/Vim/raw/master/Rakefile; rake install
+
+The manual way
+
+1. Clone the repository
+
+git clone git://github.com/brandondean/Vim.git ~/.vim
