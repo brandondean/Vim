@@ -12,4 +12,5 @@ imap jj <ESC> " better exiting of insert
 
 map <leader>l :ListMethods
 map <leader>s :A
+nmap ; :
 
