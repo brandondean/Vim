@@ -19,7 +19,7 @@ set textwidth=79
 set number
 
 set wildmenu
-set wildignore=*.gif,*.png,*.jpg,*.pyc
+set wildignore=*.gif,*.png,*.jpg,*.pyc,*.class
 set wildmode=list:longest
 
 set list
@@ -49,6 +49,7 @@ set backupdir=~/.vim-tmp
 
 let g:alternateExtensions_m = "h"
 let g:alternateExtensions_h = "m"
+let g:Powerline_symbols = 'fancy'
 
 set autowriteall
 autocmd BufLeave,FocusLost * silent! wall
