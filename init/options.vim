@@ -3,7 +3,7 @@ set guifont=Droid\ Sans\ Mono:h11
 set visualbell
 set notimeout
 set showcmd
-"set clipboard+=unnamed " share OS X clipboard
+set clipboard=unnamed " share OS X clipboard
 
 set backspace=indent
 set backspace+=eol
@@ -32,7 +32,7 @@ set hidden
 set splitright
 set splitbelow
 
-set scrolloff=5
+set scrolloff=2
 set cursorline
 
 set statusline=%F%m%r%h%w[%L][%{&ff}][%04l,%04v]
