@@ -1,7 +1,9 @@
 " This is manly 
 set background=dark
 set t_Co=256
-colorscheme badwolf
+colorscheme hybrid
+set guioptions-=r
+set guioptions-=L
 
 
 " Airline unicode characters

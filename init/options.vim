@@ -50,6 +50,7 @@ set backupdir=~/.vim-tmp
 let g:alternateExtensions_m = "h"
 let g:alternateExtensions_h = "m"
 let g:Powerline_symbols = 'fancy'
+let g:ctrlp_max_depth = 20
 
 set autowriteall
 autocmd BufLeave,FocusLost * silent! wall

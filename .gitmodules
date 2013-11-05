@@ -88,3 +88,6 @@
 [submodule "bundle/vimux"]
 	path = bundle/vimux
 	url = https://github.com/benmills/vimux.git
+[submodule "bundle/hybrid"]
+	path = bundle/hybrid
+	url = https://github.com/w0ng/vim-hybrid.git
